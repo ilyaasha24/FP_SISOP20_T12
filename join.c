@@ -82,7 +82,8 @@ int main(int argc, char *argv[])
 			}
 
 			//join baris x selesai, menambahkan enter
-			combined[countcombine] = '\n';
+			combined[countcombine] = buffer2[countext2];   
+			// combined[countcombine] = '\n';
 			countcombine++;
 			countext1++;
 			countext2++;
